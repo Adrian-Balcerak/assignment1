@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #ebbcba;
+    margin: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: #31748f;
+}
+section{
+    background-color: #e0def4;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#indexMain{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#menuClose{
+    width: 40px;
+    height: 30px;
+    align-self: flex-end;
+}
+
+#noteList{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1{
+    color: black;
+    font-size: large;
+}
+
+li a{
+    text-decoration: none;
+    color: #31748f;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    background-color: #ebbcba;
+    color: #31748f;
+    font-size: 20px;
+}
+
+section button{
+    background-color:#e0def4;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #31748f;
+}
+
+#noteButton{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+#noteButton2{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
+#indexFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 33%;
+}
+
+#SDButtons{
+    margin-left: 57%;
+}
+
+#noteFooter{
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+#openMenu{
+    margin-left: 15%;
+}
